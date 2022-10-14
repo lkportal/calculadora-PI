@@ -1,0 +1,47 @@
+
+body{
+    background-color:#C7A3E3;
+    
+}
+
+.container-calculadora{
+    display: grid;
+ justify-items: center;
+   
+    
+    
+}
+.calc-form{
+    margin-top: 150px;
+    margin-bottom: 150px;
+ 
+    border: solid 1px;
+    background-color: #514866;
+    border-radius: 5px;
+    
+    
+
+}
+.caixa-resul{
+    border: solid 1px #8DA3E3;
+    height: 75px;
+    background-color: #6C7CAD;
+    margin: 10px;
+   
+    
+}
+.itens-buttons{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    background-color: gray;
+    border:gray;
+    font-size: 25px;
+    border-radius: 3px;
+}
+.itens-buttons:hover{
+    background-color: #D7B7E8;
+    cursor: pointer;
+    
+}
+
