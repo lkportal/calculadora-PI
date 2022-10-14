@@ -5,16 +5,18 @@ body{
 }
 
 .container-calculadora{
-    display: grid;
+ display: grid;
  justify-items: center;
+ 
    
     
     
 }
 .calc-form{
+    position: relative;
     margin-top: 150px;
     margin-bottom: 150px;
- 
+   
     border: solid 1px;
     background-color: #514866;
     border-radius: 5px;
@@ -27,21 +29,38 @@ body{
     height: 75px;
     background-color: #6C7CAD;
     margin: 10px;
+    text-align: center;
+   
+    
+}
+.button{
+    display: flex;
    
     
 }
 .itens-buttons{
-    height: 50px;
     width: 50px;
-    margin: 15px;
+    height: 50px;
+    flex-direction: column;
     background-color: gray;
     border:gray;
     font-size: 25px;
     border-radius: 3px;
+    margin: 10px;
+    text-align: center;
 }
 .itens-buttons:hover{
     background-color: #D7B7E8;
     cursor: pointer;
     
+}
+#igual{
+   
+    width: 125px;
+    
+    
+}
+h1{
+    font-size: 45px;
 }
 
